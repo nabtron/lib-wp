@@ -1,4 +1,5 @@
-
+// use these in activation and deactivation hooks
+// can be used anywhere though
 add_role('bound360_moderator', 'Bound360 Moderator', array(
     'read' => true, // True allows that capability
     'edit_posts' => false,
@@ -28,3 +29,5 @@ else {
     echo 'Oh... the basic_contributor role already exists.';
 }
 print_r($result);
+
+// helpful & further reading: https://kinsta.com/blog/wordpress-user-roles/
